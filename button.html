@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic-ext' rel='stylesheet'
+          type='text/css'>
+    <link rel="stylesheet" type="text/css" href="button.css">
+    <script src="button.js" type="text/javascript"></script>
+</head>
+<body style="padding: 50px;">
+<div id="variant1" class="buy-panelbox">
+    <span class="presence presence__yes">Есть в наличии</span>
+    <span class="presence presence__order hidden">Под заказ</span>
+    <span class="presence presence__no hidden">Нет в наличии</span>
+
+    <div class="price-block disabled">
+        <div class="old-price"><span class="old-price__lthr">32 990</span> &#8399;</div>
+        <div class="new-price">
+            <i class="sp radio"></i>
+            <strong>29 999 &#8399;</strong>
+        </div>
+        <div class="price-note discount"><span class="price-note__name">Скидка: </span>6%</div>
+        <div class="price-note economy"><span class="price-note__name">Экономия: </span>2 105 &#8399;</div>
+    </div>
+    <div class="credit">
+        <i class="sp radio selected"></i>
+        <span>В кредит <br>за <strong class="credit-radio__price">953&#8399;</strong> в месяц</span>
+    </div>
+    <div class="counter">
+        <a href="javascript:void(0)" class="deduct disabled"><i class="sp"></i></a>
+        <input value="1">
+        <a href="javascript:void(0)" class="add"><i class="sp"></i></a>
+        <span>шт.</span>
+    </div>
+    <a href="javascript:void(0)" class="btn buy-btn"><i class="sp"></i></a>
+
+    <div class="click-buy-call">
+        <i class="sp"></i>
+        <a class="link dotted-link">Купить в 1 клик</a><br>
+    </div>
+    <div class="present-buy">
+        <i class="sp"></i>
+        <a class="link dotted-link">Хочу в подарок</a>
+        <i class="sp qst"></i>
+    </div>
+    <div class="js-qst popup qst-popup hidden">
+        <span>Что такое «Хочу! в подарок»? «Хочу! в подарок» — это сервис, позволяющий обмениваться своими
+            пожеланиями. Вы составляете список того, что хотели бы получить в подарок (например, на День
+            рождения) и отсылаете ссылку на него в социальную сеть. Ваши друзья заходят по ссылке и
+            покупают выбранные вами подарки.</span>
+    </div>
+</div>
+
+<div id="variant2" class="buy-panelbox">
+    <span class="presence presence__yes hidden">Есть в наличии</span>
+    <span class="presence presence__order">Под заказ</span>
+    <span class="presence presence__no hidden">Нет в наличии</span>
+
+    <div class="price-block">
+        <div class="old-price"><span class="old-price__lthr">32 990</span> &#8399;</div>
+        <div class="new-price">
+            <i class="sp radio selected"></i>
+            <strong>29 999 &#8399;</strong>
+        </div>
+        <div class="price-note discount"><span class="price-note__name">Скидка: </span>6%</div>
+        <div class="price-note economy"><span class="price-note__name">Экономия: </span>2 105 &#8399;</div>
+    </div>
+    <div class="credit disabled">
+        <i class="sp radio"></i>
+        <span>В кредит <br>за <strong class="credit-radio__price">953&#8399;</strong> в месяц</span>
+    </div>
+    <div class="counter">
+        <a href="javascript:void(0)" class="deduct disabled"><i class="sp"></i></a>
+        <input value="1">
+        <a href="javascript:void(0)" class="add"><i class="sp"></i></a>
+        <span>шт.</span>
+    </div>
+    <a href="javascript:void(0)" class="btn buy-btn"><i class="sp"></i></a>
+
+    <div class="click-buy-brd">
+        <i class="sp"></i>
+        <a class="link dotted-link">Купить в 1 клик</a><br>
+    </div>
+    <div class="present-buy">
+        <i class="sp"></i>
+        <a class="link dotted-link">Хочу в подарок</a>
+        <i class="sp qst"></i>
+    </div>
+    <div class="js-qst popup qst-popup hidden">
+        <span>Что такое «Хочу! в подарок»? «Хочу! в подарок» — это сервис, позволяющий обмениваться своими
+            пожеланиями. Вы составляете список того, что хотели бы получить в подарок (например, на День
+            рождения) и отсылаете ссылку на него в социальную сеть. Ваши друзья заходят по ссылке и
+            покупают выбранные вами подарки.</span>
+    </div>
+</div>
+
+<div id="variant3" class="buy-panelbox">
+    <span class="presence presence__yes hidden">Есть в наличии</span>
+    <span class="presence presence__order hidden">Под заказ</span>
+    <span class="presence presence__no">Нет в наличии</span>
+
+    <div class="price-block price-block__noradio">
+        <div class="old-price"><span class="old-price__lthr">32 990</span> &#8399;</div>
+        <div class="new-price">
+            <strong>29 999 &#8399;</strong>
+        </div>
+        <div class="price-note discount"><span class="price-note__name">Скидка: </span>6%</div>
+        <div class="price-note economy"><span class="price-note__name">Экономия: </span>2 105 &#8399;</div>
+    </div>
+    <div class="counter">
+        <a href="javascript:void(0)" class="deduct disabled"><i class="sp"></i></a>
+        <input value="1">
+        <a href="javascript:void(0)" class="add"><i class="sp"></i></a>
+        <span>шт.</span>
+    </div>
+    <a href="javascript:void(0)" class="btn buy-btn"><i class="sp"></i></a>
+    <a href="javascript:void(0)" class="btn credit-btn">
+        <i class="sp"></i>
+        <span>за <strong>953 &#8399;</strong> в месяц</span>
+    </a>
+
+    <div class="click-buy-call">
+        <a class="link dotted-link">Купить в 1 клик</a><br>
+        <span class="click-buy-call__details">Наш менеджер свяжется с вами и уточнит детали заказа</span>
+    </div>
+    <div class="present-buy">
+        <i class="sp"></i>
+        <a class="link dotted-link">Хочу в подарок</a>
+        <i class="sp qst"></i>
+
+        <div class="js-qst popup qst-popup hidden">
+        <span>Что такое «Хочу! в подарок»? «Хочу! в подарок» — это сервис, позволяющий обмениваться своими
+            пожеланиями. Вы составляете список того, что хотели бы получить в подарок (например, на День
+            рождения) и отсылаете ссылку на него в социальную сеть. Ваши друзья заходят по ссылке и
+            покупают выбранные вами подарки.</span>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
